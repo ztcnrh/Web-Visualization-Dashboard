@@ -1,0 +1,53 @@
+p, hr {
+  color: silver;
+  border-color: rgba(218, 84, 106, 0.938);
+}
+
+h1, h2, h3, h4, h5 {
+  color: rgba(218, 84, 106, 0.938);
+}
+
+.dark-back {
+    background-color:rgb(32, 41, 49);
+}
+
+.grey-back {
+    background-color: lightgrey;
+}
+
+.small-font {
+  font-size: 12px;
+}
+
+#p-font {
+  font-size: 14px;
+}
+
+#nav-bar {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+#summary {
+  padding: 15px;
+}
+
+#visuals {
+  padding: 15px;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+#main-image {
+  float: left;
+  padding: 15px;
+  padding-bottom: 10px;
+}
+
+.landing-images {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
