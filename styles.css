@@ -8,11 +8,11 @@ h1, h2, h3, h4, h5 {
 }
 
 .dark-back {
-    background-color:rgb(32, 41, 49);
+  background-color:rgb(32, 41, 49);
 }
 
 .grey-back {
-    background-color: lightgrey;
+  background-color: lightgrey;
 }
 
 .small-font {
@@ -21,6 +21,10 @@ h1, h2, h3, h4, h5 {
 
 #p-font {
   font-size: 14px;
+}
+
+#landing-font {
+  font-size: 16px;
 }
 
 #nav-bar {
@@ -47,7 +51,23 @@ h1, h2, h3, h4, h5 {
 }
 
 .landing-images {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 3px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
+
+#showcase {
+  padding: 15px;
+  padding-bottom: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.image-highlight {
+  border: 2px solid;
+  border-color: rgba(218, 84, 106, 0.938);
+}
+
 
