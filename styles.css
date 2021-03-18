@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5 {
 }
 
 #visuals {
-  padding: 15px;
+  padding: 20px;
 }
 
 .container {
@@ -69,5 +69,3 @@ h1, h2, h3, h4, h5 {
   border: 2px solid;
   border-color: rgba(218, 84, 106, 0.938);
 }
-
-
