@@ -10,6 +10,49 @@
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="styles.css">
     <title>Scatter: Latitude vs. Max Temperature</title>
+
+    <style>
+      @media screen and (max-width: 500px) {
+        .main-xs {
+          width: 80vw;
+        }
+      }
+      
+      @media screen and (max-width: 768px) {
+        .flex-sm {
+          width: 13vw;
+          height: 12vw;
+        }
+      }
+
+      @media screen and (max-width: 650px) {
+        .flex-sm {
+          width: 16vw;
+          height: 14vw;
+        }
+      }
+
+      @media screen and (max-width: 576px) {
+        .flex-xs {
+          width: 26vw;
+          height: 23vw;
+        }
+      }
+
+      @media screen and (width: 576px) {
+        .flex-xs {
+          width: 18vw;
+          height: 16vw;
+        }
+      }
+
+      @media screen and (max-width: 576px) {
+        .column-xs {
+          width: 38%;
+        }
+      }
+    </style>
+
   </head>
 
   <body>
@@ -51,7 +94,7 @@
             <h3>Max Temperature</h3>
             <hr>
             <div class="row justify-content-center">
-              <img id="showcase" src="visualizations/Fig1.png"
+              <img class="main-xs" id="showcase" src="visualizations/Fig1.png"
               alt="Latitude vs. Max Temperature">
             </div>
             <p class="text-center" id="p-font">
@@ -73,22 +116,23 @@
           </section>
         </div>
 
+        <!-- Visualizations sidebar -->
         <div class="col-md-12 col-lg-4">
           <section class="dark-back" id="visuals">
             <h4>Visualizations</h4>
             <hr>
-            <div class="row justify-content-center">
-              <div class="col-sm-3 col-md-3 col-lg-6">
-                <a href="visualization_fig1.html"><img class="image-highlight landing-images" src="visualizations/Fig1.png" alt="Latitude vs. Max Temperature" width="110" height="105"></a>
+            <div class="row text-center justify-content-center">
+              <div class="column-xs col-xs-6 col-sm-3 col-md-3 col-lg-6">
+                <a href="visualization_fig1.html"><img class="image-highlight landing-images flex-sm flex-xs" src="visualizations/Fig1.png" alt="Latitude vs. Max Temperature" width="110" height="105"></a>
               </div>
-              <div class="col-sm-3 col-md-3 col-lg-6">
-                <a href="visualization_fig2.html"><img class="landing-images" src="visualizations/Fig2.png" alt="Latitude vs. Humidity" width="110" height="105"></a>
+              <div class="column-xs col-xs-6 col-sm-3 col-md-3 col-lg-6">
+                <a href="visualization_fig2.html"><img class="landing-images flex-sm flex-xs" src="visualizations/Fig2.png" alt="Latitude vs. Humidity" width="110" height="105"></a>
               </div>
-              <div class="col-sm-3 col-md-3 col-lg-6">
-                <a href="visualization_fig3.html"><img class="landing-images" src="visualizations/Fig3.png" alt="Latitude vs. Cloudiness" width="110" height="105"></a>
+              <div class="column-xs col-xs-6 col-sm-3 col-md-3 col-lg-6">
+                <a href="visualization_fig3.html"><img class="landing-images flex-sm flex-xs" src="visualizations/Fig3.png" alt="Latitude vs. Cloudiness" width="110" height="105"></a>
               </div>
-              <div class="col-sm-3 col-md-3 col-lg-6">
-                <a href="visualization_fig4.html"><img class="landing-images" src="visualizations/Fig4.png" alt="Latitude vs. Wind Speed" width="110" height="105"></a>
+              <div class="column-xs col-xs-6 col-sm-3 col-md-3 col-lg-6">
+                <a href="visualization_fig4.html"><img class="landing-images flex-sm flex-xs" src="visualizations/Fig4.png" alt="Latitude vs. Wind Speed" width="110" height="105"></a>
               </div>
           </section>
         </div>
