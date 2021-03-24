@@ -6,4 +6,4 @@ The purpose of this project is to showcase a previous analysis on how weather ch
 
 Tech stack: HTML, CSS, and Bootstrap.
 
-View the deployed Github Pages here: https://ztcnrh.github.io/web-design-challenge/
+View the deployed Github Pages here: https://ztcnrh.github.io/Web-Visualization-Dashboard/
