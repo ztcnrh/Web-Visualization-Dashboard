@@ -1,8 +1,8 @@
-# web-design-challenge
+# Web-Visualization-Dashboard
 
-In this homework exercise, I created a visualization dashboard website using visualizations I created from previous Penn Data Boot Camp assignments.
+In this project, I created a visualization dashboard website using visualizations I created from previous Penn Data Boot Camp assignments.
 
-The purpose of this project was to showcase a previous analysis on how weather changes as it gets closer to the equator. This site provides the source data and visualizations created as part of that analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+The purpose of this project is to showcase a previous analysis on how weather characteristics changes as it gets closer to the equator. This site provides the source data and visualizations created as part of that analysis, as well as explanations and descriptions of any trends and correlations witnessed.
 
 Tech stack: HTML, CSS, and Bootstrap.
 
