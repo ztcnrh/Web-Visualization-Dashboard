@@ -1,4 +1,4 @@
-# Web-Visualization-Dashboard
+# Web Visualization Dashboard
 
 In this project, I created a visualization dashboard website using visualizations I created from previous Penn Data Boot Camp assignments.
 
